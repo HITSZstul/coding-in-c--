@@ -144,3 +144,27 @@ public:
 
 
 };
+int main(){
+    vector_test vt;
+    vt.add_element();
+    vt.iterator1();
+    cout << endl;
+    vt.add_element();
+    vt.iterator2();
+    vt.emplace_back();
+    vt.insert_begin();
+    vt.iterator1();
+    cout << endl;
+    vt.insert_end();
+    vt.iterator1();
+    cout << endl;
+    vt.insert_vector();
+    vt.iterator1();
+    cout << endl;
+    vt.erase_element();
+    vt.pop_back();
+    vt.clear();
+
+    cout << endl;
+    vt.iterator3();
+}
